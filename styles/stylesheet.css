@@ -1,0 +1,57 @@
+h1{
+  text-align: center;
+  color: purple;
+}
+body{
+  width: auto;
+  color: black;
+  background-color: honeydew;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+a:link, a:visited {
+    background-color: grey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: blue;
+}
+
+p{
+  text-align: justify;
+  border: 2px solid red;
+  width: 30%;
+  font-size: 3;
+}
+
+* {
+   box-sizing: border-box;
+ }
+
+img{
+  border: 2px dashed orange;
+  width: 25%;
+  height: auto;
+  float: right;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+footer{
+  color: red;
+  border: 5px solid white;
+  text-align: center;
+}
