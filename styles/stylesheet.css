@@ -1,6 +1,23 @@
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
+}
+
 h1{
   text-align: center;
-  color: purple;
+}
+.about-me{
+  padding-left: 80px;
 }
 body{
   width: auto;
@@ -10,6 +27,15 @@ body{
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.nav-bar ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-bar li{
+  text-decoration: none;
 }
 
 a:link, a:visited {
@@ -22,36 +48,21 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: blue;
+    background-color: black;
 }
-
-p{
-  text-align: justify;
-  border: 2px solid red;
-  width: 30%;
-  font-size: 3px;
-}
-
-* {
-   box-sizing: border-box;
- }
 
 img{
-  border: 2px dashed orange;
+  float: right;
   width: 25%;
   height: auto;
-  float: right;
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+  padding-right: 15px;
 }
 
 footer{
-  color: red;
-  border: 5px solid white;
-  text-align: center;
+  display:flex;
+  clear: both;
+  width: 50%;
+  justify-content: center;
+  color: black;
+  overflow: auto;
 }
