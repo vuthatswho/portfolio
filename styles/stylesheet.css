@@ -66,3 +66,33 @@ footer{
   color: black;
   overflow: auto;
 }
+
+a.link-one {
+font-size: 14px;
+transition-property:
+font-size;
+transition-duration: 2s;
+transition-delay: 1s;
+}
+a.link-one:hover {
+font-size: 24px;
+}
+
+a.link-two:hover {
+transition-property: font-weight;
+font-weight: bold;
+transition-duration: 2s;
+transition-delay: 1s;
+}
+
+a.link-three:hover {
+  font-size: 12px;
+}
+a.link-three {
+transition-property: font-style;
+font-style: italic;
+transition-duration: 2s;
+transition-delay: 1s;
+}
+
+}
